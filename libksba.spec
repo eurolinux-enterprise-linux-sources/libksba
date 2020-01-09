@@ -1,7 +1,7 @@
 Summary: X.509 library
 Name:    libksba
 Version: 1.0.7
-Release: 1%{?dist}
+Release: 4%{?dist}
 
 License: GPLv3
 Group:   System Environment/Libraries
@@ -10,7 +10,7 @@ Source0: ftp://ftp.gnupg.org/gcrypt/libksba/libksba-%{version}.tar.bz2
 Source1: ftp://ftp.gnupg.org/gcrypt/libksba/libksba-%{version}.tar.bz2.sig
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
-Patch1: libksba-1.0.6-multilib.patch
+Patch1: libksba-1.0.7-multilib.patch
 
 BuildRequires: gawk
 # >= 1.4 preferred
@@ -90,6 +90,9 @@ fi
 
 
 %changelog
+* Tue May  7 2013 Tomáš Mráz <tmraz@redhat.com> - 1.0.7-4
+- fix the multilib patch as it does not really remove the multilib conflict
+
 * Fri Jan  8 2010 Tomas Mraz <tmraz@redhat.com> - 1.0.7-1
 - new upstream version
 
