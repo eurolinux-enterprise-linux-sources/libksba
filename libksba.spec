@@ -1,7 +1,7 @@
 Summary: CMS and X.509 library
 Name:    libksba
 Version: 1.3.0
-Release: 3%{?dist}
+Release: 5%{?dist}
 
 # The library is licensed under LGPLv3+ or GPLv2+,
 # the rest of the package under GPLv3+
@@ -92,6 +92,12 @@ fi
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.3.0-5
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.3.0-4
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.3.0-3
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
@@ -142,7 +148,7 @@ fi
 * Fri Jan 09 2009 Rex Dieter <rdieter@fedoraproject.org> 1.0.5-1
 - libksba-1.0.5
 
-* Thu Sep 23 2008 Rex Dieter <rdieter@fedoraproject.org> 1.0.4-1
+* Tue Sep 23 2008 Rex Dieter <rdieter@fedoraproject.org> 1.0.4-1
 - libksba-1.0.4
 
 * Thu Apr 03 2008 Rex Dieter <rdieter@fedoraproject.org> 1.0.3-2
@@ -176,7 +182,7 @@ fi
 * Tue Aug 29 2006 Rex Dieter <rexdieter[AT]users.sf.net> 0.9.15-3
 - fc6 respin
 
-* Thu Jun 20 2006 Rex Dieter <rexdieter[AT]users.sf.net> 0.9.15-2
+* Tue Jun 20 2006 Rex Dieter <rexdieter[AT]users.sf.net> 0.9.15-2
 - 0.9.15
 
 * Wed Mar 1 2006 Rex Dieter <rexdieter[AT]users.sf.net> 0.9.13-2.1
@@ -204,7 +210,7 @@ fi
 - 0.9.11
 - drop upstreamed acquote patch
 
-* Fri Apr  7 2005 Michael Schwendt <mschwendt[AT]users.sf.net> - 0.9.9-2
+* Thu Apr  7 2005 Michael Schwendt <mschwendt[AT]users.sf.net> - 0.9.9-2
 - rebuilt
 
 * Tue Feb  1 2005 Michael Schwendt <mschwendt[AT]users.sf.net> - 0:0.9.9-1
@@ -221,7 +227,7 @@ fi
 - Update to 0.4.7, and to current Fedora guidelines.
 - Exclude %%{_libdir}/*.la.
 
-* Tue Feb 12 2003 Warren Togami <warren@togami.com> 0.4.6-1.fedora.3
+* Wed Feb 12 2003 Warren Togami <warren@togami.com> 0.4.6-1.fedora.3
 - temporary workaround to lib/dir conflict problem
 
 * Sat Feb  8 2003 Ville Skyttä <ville.skytta@iki.fi> - 0.4.6-1.fedora.1
